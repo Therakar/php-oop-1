@@ -2,7 +2,13 @@
 
 // classe
 class Movie{
-    
+
+     // istanze 
+     public $title;
+     public $duration;
+     public $genre;
+     public $year;
+     private $rating;
 }
 
 
