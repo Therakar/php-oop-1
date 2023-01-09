@@ -38,6 +38,11 @@ class Movie{
     }
 
 }
+    $aSilentVoice = new Movie('A silent voice', 'animation', '129 min', '2016', 4);
+    
+
+    $deadPool = new Movie('Deadpool', 'action', '108 min', '2016', 5);
+    var_dump( $aSilentVoice, $deadPool);
 ?>
 
 
