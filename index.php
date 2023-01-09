@@ -5,10 +5,18 @@ class Movie{
 
      // istanze 
      public $title;
-     public $duration;
      public $genre;
+     public $duration;
      public $year;
      private $rating;
+
+     function __construct($_title, $_genre, $_duration, $_year, $_rating){
+        $this -> title = $_title;
+        $this -> genre = $_genre;
+        $this -> duration = $_duration;
+        $this -> year = $_year;
+        $this -> ;
+     }
 }
 
 
